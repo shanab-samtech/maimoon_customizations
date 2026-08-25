@@ -26,7 +26,7 @@ app_license = "mit"
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/maimoon_customizations/css/maimoon_customizations.css"
-# app_include_js = "/assets/maimoon_customizations/js/maimoon_customizations.js"
+app_include_js = "/assets/maimoon_customizations/js/company_navbar.js"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/maimoon_customizations/css/maimoon_customizations.css"
