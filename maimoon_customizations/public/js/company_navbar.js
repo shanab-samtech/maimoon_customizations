@@ -33,7 +33,7 @@ function build_company_switcher() {
 			let new_company = $(this).val();
 
 			frappe.call({
-				method: "company_switcher.api.set_company_default",
+				method: "maimoon_customizations.api.set_company_default",
 				args: { company: new_company },
 				callback: function () {
 					frappe.show_alert({
